@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Trackr</title>
   <link rel="stylesheet" href="style.css">
 
   <!-- Google Analytics -->
@@ -18,10 +18,15 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to Our Product</h1>
-    <p>Revolutionizing the way you [describe product here]</p>
+    <h1>Introducing Trackr</h1>
+    <p>
+      A new long-lasting, portable, and affordable way to track
+      your belongings.
+    </p>
     <a href="details.html">
-      <button>Learn More</button>
+      <button onclick="gtag('event', 'learn_more_click', {'event_category': 'engagement', 'event_label': 'Learn More Button'});">
+        Learn More
+      </button>
     </a>
   </header>
 </body>
